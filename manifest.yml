@@ -1,0 +1,15 @@
+modules:
+  macro:
+    - key: image-ui-kit-tester-macro-hello-world
+      function: main
+      title: image-ui-kit-tester-macro
+      description: Inserts Hello world!
+      export:
+        function: page-export
+  function:
+    - key: main
+      handler: index.run
+    - key: page-export
+      handler: export.run
+app:
+  id: ari:cloud:ecosystem::app/0241b2de-4115-48ee-a873-6852a439b69f
